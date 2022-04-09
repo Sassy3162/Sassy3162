@@ -335,10 +335,9 @@ gg.searchNumber("1,19603767e-39;6,44665957e-40", gg.TYPE_FLOAT, nil, nil, nil, n
 gg.setVisible(false)
 gg.getResults(50000)
 gg.editAll("1,44636422e-39", gg.TYPE_FLOAT)
-gg.alert("aktif Sassy bypass 10 dk ❌ 10 yıl ❌")
+gg.alert("Aktif Sassy bypass 10 dk ❌ 10 yıl ❌")
 
 end
-
 function aimbot ()
 gg.clearResults()
 gg.processResume()
