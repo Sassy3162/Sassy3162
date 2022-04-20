@@ -1,1 +1,1 @@
-gg.alert("Son")
+gg.alert("Berkay")
