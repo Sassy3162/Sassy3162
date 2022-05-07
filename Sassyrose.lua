@@ -126,6 +126,7 @@ end
 
 function aimbot ()
 gg.alert("♦️ Uçaktan Atlayınca yerde açın 🤡")
+gg.alert("♣️Sadece Snapdragon işlemci içindir 🔳")
 gg.clearResults()
 gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
 gg.searchNumber("2.25F;7.1054274e-15F;2.25048828125F;1.8954664e-40F;9.7715345e-41F;5.8812497e-42F;4.8146047e21F;3.7615819e-37F;2.0F:245",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
