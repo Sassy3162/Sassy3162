@@ -4,7 +4,7 @@ off = '[✅]'
 
 
 
-Password = '1825'
+Password = '4235'
 PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
 if not PS then os.exit() 
 end 
@@ -18,9 +18,9 @@ gg.alert("Sassycoder🇹🇷🇹🇷")
 
 function HOME()
 menu1 = gg.choice({
-"👑 GL-BYPASS 👑",
-"👑 LİTE-BYPASS 👑",
-"👑 WALHACK 👑",
+"👑 BYPASS👑",
+"👑 WALHACK SARI 👑",
+"👑 UZUN ATLAMA  👑",
 "👑 SEKMEME+CROS 👑",
 "👑 MAGİC 👑",
 "👑 FLASH AÇ 👑",
@@ -46,16 +46,94 @@ end
 
 
 function by()
-gg.alert("GÜNCEL OLMADIĞI İÇİN AÇILMAYACAKDIR💙")
-
+gg.alert("🔱Lite Bypass Her cihaza uyumludur iyi oyunlar --->💙Sassy💙")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("620137442967552;564058054983680", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.searchNumber("620137442967552", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.searchNumber("578351706144768", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("577252194516992;564058054983680", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.searchNumber("577252194516992", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.getResults(50000)
+gg.editAll("288516253537076225", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("579451217772544;564058054983680", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.searchNumber("579451217772544", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("3472275329882652930;2314850225648439810", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.getResults(50000)
+gg.editAll("6566248273953161729", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("4119949251293874691;3256102547768739073", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.getResults(50000)
+gg.editAll("6566248273953161729", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.getResults(10000)
+gg.searchNumber("1,01090792e-39;3,62936302e-43", gg.TYPE_FLOAT, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.getResults(50000)
+gg.editAll("1,5047707e-36", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.getResults(10000)
+gg.searchNumber("1,88337316e-40;1,88696049e-40", gg.TYPE_FLOAT, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.getResults(50000)
+gg.editAll("1,5047707e-36", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.getResults(10000)
+gg.searchNumber("2,02329281e-40;3,67704921e-40", gg.TYPE_FLOAT, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.getResults(50000)
+gg.editAll("1,5047707e-36", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.getResults(10000)
+gg.searchNumber("1,79786593e-42;4,59894946e-40", gg.TYPE_FLOAT, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.getResults(50000)
+gg.editAll("1,5047707e-36", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.getResults(10000)
+gg.searchNumber("1,28641441e-39;1,61429583e-41", gg.TYPE_FLOAT, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.getResults(50000)
+gg.editAll("1,5047707e-36", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.getResults(10000)
+gg.searchNumber("9,90129469e-41", gg.TYPE_FLOAT, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.getResults(50000)
+gg.editAll("1,5047707e-36", gg.TYPE_FLOAT)
+gg.toast("Bypass aktif ✅")
 end
+
 
 function sekme()
-gg.alert("GÜNCEL OLMADIĞI İÇİN AÇILMAYACAKDIR💙")
-
-end
-
-function aimbot ()
 gg.alert("♦️ Uçaktan Atlayınca yerde açın 🤡")
 gg.clearResults()
 gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
@@ -74,9 +152,26 @@ gg.clearResults()
 gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
 gg.searchNumber("8200;8201;8203:25",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
 gg.getResults(10)
-gg.editAll("7;8;9",gg.TYPE_DWORD)
+gg.editAll("6;7;8",gg.TYPE_DWORD)
 gg.clearResults()
 gg.toast("Walhack aktif ✅")
+end
+
+function aimbot ()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2500)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("300;0;0.05000000075;2;25::17", gg.TYPE_FLOAT, false)
+gg.refineNumber("0.05000000075", gg.TYPE_FLOAT, false)
+gg.getResults(2400)
+gg.editAll("4", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Uzun atlama aktif ✅")
+
 end
 
 function bypass()
