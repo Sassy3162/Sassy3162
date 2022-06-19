@@ -2,6 +2,9 @@ on = '[❌]'
 off = '[✅]'
 
 
+gg.alert("🔥ONLİNE LUA🔥")
+gg.alert("⚠️ LÜTFEN İNTERNETİ AÇIN ⚠️")
+
 Password = '192566'
 PS = gg.prompt({'🔒 ŞİFRE GİRİNİZ: '},{[1]=''},{[1]='number'})
 if not PS then os.exit() 
@@ -11,8 +14,7 @@ gg.toast('✔️ GİRİŞ BAŞARILI')
 else 
 gg.alert('❌ GİRİŞ BAŞARISIZ ❕') os.exit() end
 
-gg.alert("🔥ONLİNE LUA🔥")
-gg.alert("⚠️ LÜTFEN İNTERNETİ AÇIN ⚠️")
+
 
 
 
