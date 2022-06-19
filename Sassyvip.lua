@@ -12,7 +12,7 @@ else
 gg.alert('❌ GİRİŞ BAŞARISIZ ❕') os.exit() end
 
 gg.alert("🔥ONLİNE LUA🔥")
-gg.alert("⚠️ LÜTFEN İNTERNETİ AÇIN ⚠️)
+gg.alert("⚠️ LÜTFEN İNTERNETİ AÇIN ⚠️")
 
 
 
