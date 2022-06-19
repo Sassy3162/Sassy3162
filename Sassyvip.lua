@@ -1,2 +1,2 @@
-gg.alert("sassy")
-gg.alert("77")
+gg.alert("🔥ONLİNE LUA🔥")
+gg.alert("⚠️ LÜTFEN İNTERNEİ AÇIN ⚠️)
