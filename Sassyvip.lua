@@ -170,7 +170,7 @@ gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("h 00 00 00 00 03 00 28 00 00 00 00 00 34 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 10 00 F1 FF 00 00 00 00 12 00 00 00 00 00 00 00 22 00 00 00", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("h00000000", gg.TYPE_BYTE)
-gg.alert("Sassy vip bypass aktif 🛡️👑")
+gg.alert("SASSY VİP BYPASS AKTİF 🛡️👑")
 end
 
 
