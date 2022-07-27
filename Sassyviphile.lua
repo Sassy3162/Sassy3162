@@ -4,7 +4,7 @@ off = '[✅]'
 
 
 
-Password = 'axQKKxqApIh3aky'
+Password = 'vKGhrjKJgEmngey'
 PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
 if not PS then os.exit() 
 end 
@@ -54,7 +54,7 @@ end
 
 function by()
 gg.alert("🔱Lite Bypass Her cihaza uyumludur iyi oyunlar --->💙Sassy💙")
-
+gg.alert("BAKIMDA❗")
 gg.toast("Bypass Aktif ✅")
 end
 
