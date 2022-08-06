@@ -1,5 +1,5 @@
 
-Password = 'gpeL36o0tff'
+Password = 'Qbsww1InT2aSbdY'
 PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
 if not PS then os.exit() 
 end 
