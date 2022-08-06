@@ -3,7 +3,7 @@
 on = '[❌]'
 off = '[✅]'
 
-Password = 'gpeL36Tg0wo0tff'
+Password = 'gpeL36o0tff'
 PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
 if not PS then os.exit() 
 end 
