@@ -1,4 +1,4 @@
-
+gg.alert("♥️ GÜNCEL KOD ♥️")
 Password = 'Qbsww1InT2aSbdY'
 PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
 if not PS then os.exit() 
