@@ -1,14 +1,6 @@
 
 
 
-Password = 'PMBwNkakTVuX6Xe'
-PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
-if not PS then os.exit() 
-end 
-if PS[1] == Password then 
-gg.toast('✔️ GİRİŞ BAŞARILI')
-else 
-gg.alert('❌ GİRİŞ BAŞARISIZ ❕') os.exit() end
 
 
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
