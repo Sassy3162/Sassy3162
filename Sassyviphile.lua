@@ -1,6 +1,4 @@
 
-on = '[❌]'
-off = '[✅]'
 
 
 Password = 'PMBwNkakTVuX6Xe'
