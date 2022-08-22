@@ -1,3 +1,5 @@
+
+gg.alert("7777777")
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
 gg.searchNumber("620,137,442,967,552;564,058,054,983,680", gg.TYPE_QWORD)
 gg.refineNumber("620,137,442,967,552", gg.TYPE_QWORD)
