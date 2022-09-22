@@ -1,4 +1,11 @@
 gg.alert("Sassy vip gg💎")
+gg.alert("2.2 versiyon 
+Gl~
+Kr~
+Tw~
+Wn~
+Lite~
+")
 
 Date = "20220923"
 date = os.date("%Y%m%d")
