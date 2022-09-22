@@ -1,3 +1,23 @@
+Password = 'wqV6n73XalzLV0i'
+PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
+if not PS then os.exit() 
+end 
+if PS[1] == Password then 
+gg.toast('✔️ GİRİŞ BAŞARILI')
+else 
+gg.alert('❌ GİRİŞ BAŞARISIZ ❕') os.exit() end
+
+
+
+
+
+
+
+
+
+
+
+
 gg.alert("Sassy vip gg💎")
 gg.alert("2.2~All~ versiyon")
 
