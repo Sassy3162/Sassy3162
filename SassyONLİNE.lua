@@ -1,1 +1,2 @@
-gg.alert("Berkay")
+gg.alert("Sassy vip gg")
+
