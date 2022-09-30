@@ -21,7 +21,7 @@ gg.alert('❌ GİRİŞ BAŞARISIZ ❕') os.exit() end
 gg.alert("Sassy vip gg💎")
 gg.alert("2.2~All~ versiyon")
 
-Date = "20220927"
+Date = "20220931"
 date = os.date("%Y%m%d")
 if date >= Date then
   print([[SÜRESİ BİTTİ DATE EXPRİED😭]])
