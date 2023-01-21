@@ -149,7 +149,7 @@ gg.editAll("h 00 00 00 00", gg.TYPE_BYTE)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber("h 00 00 00 0C")
-gg.getResults(274658)
+gg.getResults(99999)
 gg.editAll("h 00 00 00 00", gg.TYPE_BYTE)
 gg.toast("LOBBY BYPASS DONE ✅")
 end
