@@ -29,11 +29,11 @@ gg.alert("✨2.4  Güncell ⚡")
 
 function HOME()
 menu1 = gg.choice({
-"👑 BYPASS LOGO 👑",
-"👑 BYPASS LOBBY👑",
-"👑 3RD FİX 👑",
+"🛡️ BYPASS LOGO 🛡️",
+"🛡️ ANTİCHEAT OFF❗❗🛡️",
+"🛡️ 3RD FİX 🛡️",
 "❌ÇIKIŞ ❌",
-}, nil," ⭐ Sassy Hile Menü ⭐   ")
+}, nil," 🌠 SASSY VİP KORUMA 🌠   ")
 
 if menu1 == nil then else
 if menu1== 1 then by() end
@@ -160,7 +160,6 @@ while true do
     HOME()
   end  
 end
-
 
 
 
