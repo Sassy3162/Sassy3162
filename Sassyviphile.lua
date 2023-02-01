@@ -136,7 +136,7 @@ gg.searchNumber("1700147761", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)--
+gg.setRanges(gg.REGION_OTHER)
 gg.searchNumber("1970104659", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
