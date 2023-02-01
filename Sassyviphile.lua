@@ -8,11 +8,11 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 function HOME()
 menu1 = gg.choice({
-"🛡️ BYPASS LOGO 🛡️",
+"🛡️BYPASS LOGO 🛡️",
 "🛡️BYPASS LOBBY🛡️",
-"🛡️ EXPERT FİX🛡️",
+"🛡️BYPASS ADA🛡️",
 "❌ÇIKIŞ ❌",
-}, nil," 🌠64 BİT SASSY VİP KORUMA 🌠   ")
+}, nil," 🌠32 BİT SASSY VİP KORUMA 🌠   ")
 
 if menu1 == nil then else
 if menu1== 1 then by() end
@@ -85,17 +85,15 @@ end
 
 function sekme()
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2145748416", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("31588608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
-
-
 end
 
 
@@ -142,7 +140,6 @@ gg.setRanges(gg.REGION_OTHER)--
 gg.searchNumber("1970104659", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
-
 end
 
 
