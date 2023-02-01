@@ -4,36 +4,15 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 
 
-on = '[❌]'
-off = '[✅]'
-
-
-
-
-Password = '1'
-PS = gg.prompt({'🔒 KEYİ GİRİNİZ: '},{[1]=''},{[1]='number'})
-if not PS then os.exit() 
-end 
-if PS[1] == Password then 
-gg.toast('✔️ GİRİŞ BAŞARILI')
-else 
-gg.alert('❌ GİRİŞ BAŞARISIZ ❕') os.exit() end
-
-
-gg.alert("Sassycoder🇹🇷🇹🇷")
-gg.sleep(250)
-gg.alert("✨2.4  Güncell ⚡")
-
-
 
 
 function HOME()
 menu1 = gg.choice({
 "🛡️ BYPASS LOGO 🛡️",
-"🛡️ ANTİCHEAT OFF❗❗🛡️",
-"🛡️ 3RD FİX 🛡️",
+"🛡️BYPASS LOBBY🛡️",
+"🛡️ EXPERT FİX🛡️",
 "❌ÇIKIŞ ❌",
-}, nil," 🌠 SASSY VİP KORUMA 🌠   ")
+}, nil," 🌠64 BİT SASSY VİP KORUMA 🌠   ")
 
 if menu1 == nil then else
 if menu1== 1 then by() end
@@ -50,97 +29,120 @@ end
 
 
 function by()
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x66A4760
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x0178a61e
 setvalue(so+py,4,0)
 so=gg.getRangesList('libUE4.so')[1].start
-py=0x55B10D0
+py=0x017d251c
 setvalue(so+py,4,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x480
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x0183fdde
 setvalue(so+py,4,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x18C
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x0184a160
 setvalue(so+py,4,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x1CC
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x0197085e
 setvalue(so+py,4,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x1E0
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x01b1d14a
 setvalue(so+py,4,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0xC008
-setvalue(so+py,16,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x200C
-setvalue(so+py,32,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x2010
-setvalue(so+py,32,0)
-so=gg.getRangesList('libanogs.so')[1].start
-py=0x201C
-setvalue(so+py,32,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x01b4a836
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start--sp,r0
+py=0x01f1fe3c
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x22569B0
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x22584FC
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x2258500
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x2258C28
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x2258C74
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x225CF9C
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x225CFD8
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x225CFE4
+setvalue(so+py,4,0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x225FB4C
+setvalue(so+py,4,0)
+gg.alert(" BYPASS ACTİVİTED✅")
 end
-
 
 function sekme()
-gg.alert("🔱 Bypass Her cihaza uyumludur iyi oyunlar --->💙Sassy💙")
 gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("6815827")
-gg.getResults(5000)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2145748416", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("7667823")
-gg.getResults(5000)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("31588608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("5439573")
-gg.getResults(5000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("30399800000249941")
-gg.getResults(5000)
-gg.editAll("0", gg.TYPE_QWORD)
-gg.toast("LOBBY BYPASS DONE ✅")
+
+
 end
 
+
+
+
 function aimbot ()
-gg.setRanges(4 | 16384 | gg.REGION_C_BSS | gg.REGION_C_DATA)
-gg.searchNumber(":127.0.0.1",1)
-gg.getResults(8700)
-gg.editAll(":",1)
 gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber([==[:foo_game_ipc]==],1)
-gg.getResults(100)
-gg.editAll([==[:]==],1)
+gg.setRanges(gg.REGION_CODE_APP | gg.REGION_ANONYMOUS| gg.REGION_C_DATA | gg.REGION_JAVA_HEAP)
+gg.searchNumber(":Anti", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(60000)
+gg.editAll("0", gg.TYPE_BYTE)
 gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("774308870", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(4 | 16384 | gg.REGION_C_BSS | gg.REGION_C_DATA)
-gg.searchNumber(":0.0.0.0",1)
-gg.getResults(8700)
-gg.editAll(":",1)
+gg.setRanges(gg.REGION_OTHER)
+gg.searchNumber("1096042528", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(4 | 16384 | gg.REGION_C_BSS | gg.REGION_C_DATA)
-gg.searchNumber(":443",1)
-gg.getResults(8700)
-gg.editAll(":",1)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("17179171", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(4 | 16384 | gg.REGION_C_BSS | gg.REGION_C_DATA)
-gg.searchNumber(":dl.listdl.com",1)
-gg.getResults(8700)
-gg.editAll(":",1)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("774308870", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(4 | 16384 | gg.REGION_C_BSS | gg.REGION_C_DATA)
-gg.searchNumber(":anticheatexpert.com",1)
-gg.getResults(8700)
-gg.editAll(":",1)
+gg.setRanges(gg.REGION_OTHER)--CMP
+gg.searchNumber("-1862240801", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.alert("3RD FİX DONE ✅")
+gg.setRanges(gg.REGION_OTHER)
+gg.searchNumber("1700147761", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_OTHER)--
+gg.searchNumber("1970104659", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
+
 end
 
 
